@@ -1,7 +1,3 @@
--- ============================================================
--- 03_delay_trend.sql
--- Decision: Executive escalation trigger — is degradation accelerating?
--- ============================================================
 
 SELECT
     STRFTIME('%Y-%m', order_purchase_timestamp)          AS month,

@@ -1,13 +1,4 @@
-"""
-01_otd_trend.py
----------------
-Monthly OTD rate + average delay trend.
-Decision: Executive escalation trigger -- is degradation accelerating?
 
-Outputs:
-  outputs/charts/01_otd_trend.png
-  outputs/otd_trend.csv
-"""
 
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))

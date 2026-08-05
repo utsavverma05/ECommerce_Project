@@ -1,16 +1,4 @@
-"""
-03_bottleneck_attribution.py
-----------------------------
-Splits total fulfillment time into seller processing vs carrier transit,
-per fulfillment node. Identifies whether the bottleneck is inside the
-warehouse or with the carrier.
 
-Decision: Where to invest first -- warehouse ops or carrier SLA enforcement.
-
-Outputs:
-  outputs/charts/03_bottleneck_attribution.png
-  outputs/bottleneck_by_node.csv
-"""
 
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))

@@ -1,23 +1,3 @@
-"""
-05_ops_health_score.py
-----------------------
-Computes the Operations Health Score (OHS) per fulfillment node per month.
-
-Formula:
-  OHS = 0.40*OTD + 0.25*(1 - RTO%) + 0.20*(1 - min(delay/14,1))
-        + 0.15*(1 - min(proc/7,1))    [all components scaled to [0,1]]
-  Final score x 100 -> [0, 100]
-
-Thresholds:
-  >=80 -> Healthy (green) | 60-79 -> At Risk (amber) | <60 -> Critical (red)
-
-Decision: Monthly ops scorecard for regional manager review;
-          auto-trigger SLA review for nodes scoring <60.
-
-Outputs:
-  outputs/charts/05_ops_health_score.png
-  outputs/ops_health_score.csv
-"""
 
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))

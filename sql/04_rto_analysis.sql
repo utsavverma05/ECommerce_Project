@@ -1,7 +1,3 @@
--- ============================================================
--- 04_rto_analysis.sql
--- Decision: Last-mile partner audit; which nodes to deprioritize.
--- ============================================================
 
 SELECT
     s.seller_state                                          AS node,

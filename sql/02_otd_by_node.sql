@@ -1,8 +1,4 @@
--- ============================================================
--- 02_otd_by_node.sql
--- Decision: Which fulfillment nodes to flag for performance review.
--- Unit: seller_state = warehouse node proxy
--- ============================================================
+
 
 SELECT
     s.seller_state                                               AS node,

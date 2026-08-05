@@ -1,14 +1,3 @@
-"""
-02_rto_analysis.py
-------------------
-RTO rate by fulfillment node (seller_state) + revenue at risk.
-Decision: Last-mile partner audit; which nodes to deprioritize / seek
-          alternative carrier coverage.
-
-Outputs:
-  outputs/charts/02_rto_analysis.png
-  outputs/rto_by_node.csv
-"""
 
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))

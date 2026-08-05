@@ -1,16 +1,3 @@
-"""
-generate_workbook.py
----------------------
-Builds the 8-sheet Excel ops case study workbook using openpyxl.
-Each sheet maps to a management decision (not just data).
-Applies conditional formatting, data bars, RAG coloring, and
-freeze panes so it looks like a real ops dashboard on open.
-
-Run:
-    python excel/generate_workbook.py
-Output:
-    excel/ops_case_study.xlsx
-"""
 
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))

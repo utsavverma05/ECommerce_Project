@@ -1,19 +1,4 @@
-"""
-run_all.py
-----------
-Master runner -- executes the full case study pipeline end-to-end.
 
-Steps:
-  1. Generate synthetic data (if not already present)
-  2. Load data into SQLite
-  3. Run all 6 analysis scripts -> 6 charts
-  4. Build Excel workbook (8 sheets)
-
-Usage:
-  python run_all.py
-  python run_all.py --skip-data     # if CSVs already exist
-  python run_all.py --skip-excel    # skip workbook build
-"""
 
 import sys
 import time

@@ -1,28 +1,3 @@
-"""
-generate_synthetic_data.py
-------------------------------------------------------------------
-Generates a realistic 100K-order synthetic dataset that mirrors the
-Olist e-commerce schema. Bakes in a deliberate 6-month delivery
-degradation signal so all downstream analysis produces meaningful,
-defensible findings.
-
-Degradation model:
-  * Overall OTD starts at ~88% in Jan -> declines to ~72% by Jun
-  * Two specific nodes (CE, PE) are the primary culprits
-  * RTO is elevated in CE, PE, BA (structural underservice)
-  * Seller processing time grows monotonically in bad nodes
-  * Review score correlates inversely with delay (r approx -0.55)
-
-Run:
-    python data/generate_synthetic_data.py
-Outputs:
-    data/raw/olist_orders_dataset.csv
-    data/raw/olist_order_items_dataset.csv
-    data/raw/olist_products_dataset.csv
-    data/raw/olist_sellers_dataset.csv
-    data/raw/olist_customers_dataset.csv
-    data/raw/olist_order_reviews_dataset.csv
-"""
 
 import sys
 import os

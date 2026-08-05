@@ -1,9 +1,3 @@
--- ============================================================
--- 07_bottleneck_attribution.sql
--- Decision: Where to invest — warehouse processing vs carrier SLA.
--- Outputs: avg processing days (seller) vs avg transit days (carrier)
---          per node, sorted by worst total time.
--- ============================================================
 
 SELECT
     s.seller_state                                          AS node,

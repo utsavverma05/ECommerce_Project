@@ -1,8 +1,3 @@
--- ============================================================
--- 05_category_delay_index.sql
--- Decision: Which categories to reposition closer to demand nodes.
--- Delay index = order_count × avg_positive_delay (volume-weighted burden).
--- ============================================================
 
 SELECT
     p.product_category_name                                 AS category,

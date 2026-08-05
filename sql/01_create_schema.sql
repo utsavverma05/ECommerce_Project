@@ -1,9 +1,4 @@
--- ============================================================
--- 01_create_schema.sql
--- Core table definitions for SQLite.
--- (Informational — db_loader.py creates tables from CSVs.
---  Use this as reference / for PostgreSQL migration.)
--- ============================================================
+
 
 CREATE TABLE IF NOT EXISTS orders (
     order_id                        TEXT PRIMARY KEY,

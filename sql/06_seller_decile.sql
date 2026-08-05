@@ -1,10 +1,3 @@
--- ============================================================
--- 06_seller_decile.sql
--- Decision: Performance tiering — enforce SLA on bottom decile;
---           give preferential routing to top decile.
--- Note: SQLite doesn't have NTILE; Python handles decile binning.
---       This query returns per-seller OTD for Python post-processing.
--- ============================================================
 
 SELECT
     oi.seller_id,

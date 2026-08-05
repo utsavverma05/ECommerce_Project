@@ -1,17 +1,4 @@
-"""
-04_abc_analysis.py
-------------------
-ABC Pareto analysis: sellers classified by cumulative revenue share.
-Cross-tabulated with OTD rate to surface the risk quadrant:
-  High revenue (Class A) + Low OTD = highest business risk.
 
-Decision: Priority SLA enforcement -- which sellers need immediate
-          intervention vs ongoing monitoring.
-
-Outputs:
-  outputs/charts/04_abc_analysis.png
-  outputs/abc_seller_classification.csv
-"""
 
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
