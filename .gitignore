@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Data files (add real Olist CSVs here locally; don't commit)
+data/raw/*.csv
+data/raw/*.db
+
+# Generated outputs (regenerate with run_all.py)
+outputs/charts/*.png
+outputs/*.csv
+outputs/ops_health_score.csv
+
+# Excel output
+excel/ops_case_study.xlsx
+
+# Environment
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.iml
