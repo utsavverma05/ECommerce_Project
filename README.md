@@ -152,7 +152,3 @@ $$OHS = 0.40 \cdot OTD + 0.25 \cdot (1 - RTO) + 0.20 \cdot \left(1 - \min\!\left
 
 ---
 
-## Author
-
-Built as a portfolio case study for Flipkart NEEV Operations track.  
-Stack: Python · SQL · Excel · GitHub
