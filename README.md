@@ -1,8 +1,4 @@
-# Flipkart NEEV — Delivery Ops Diagnostic Case Study
 
-> **Portfolio-grade operations diagnostic.** Not a student dashboard — every query, chart, and metric maps to a real management decision.
-
----
 
 ## Problem Statement
 
